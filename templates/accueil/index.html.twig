@@ -1,0 +1,284 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Page d'Accueil{% endblock %}
+
+{% block body %}
+ 
+      <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('https://garagem360.com.br/wp-content/uploads/2022/03/car-1751750_1920-2.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Mamba</span></h2>
+                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-2.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
+                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
+                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+  
+  <!-- End Hero -->
+
+ 
+
+<main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="accueil" class="accueil">
+        <div class="container" data-aos="fade-up">
+
+            <div class="row no-gutters">
+                <div class="col-lg-6 video-box">
+                <iframe width="560" height="500" src="https://www.youtube.com/embed/67o02dT5nN4?si=TMehlK2XA7cxgoMs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+
+                <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
+
+                    <div class="section-title">
+                        <h2>A Propos de nous</h2>
+                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                            Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                            alias ea.</p>
+                    </div>
+
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi sint occaecati cupiditate non provident</p>
+                    </div>
+
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="bx bx-gift"></i></div>
+                        <h4 class="title"><a href="">Nemo Enim</a></h4>
+                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                            praesentium voluptatum deleniti atque</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End About Us Section -->
+            
+    <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+    
+            <div class="section-title">
+                <h2>Services</h2>
+            </div>
+    
+            <div class="row">
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                    <div class="icon"><i class="fa fa-oil-can"></i></div>
+                    <h4 class="title"><a href="">briser l'huile</a></h4>
+                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                        occaecati cupiditate non provident</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon"><i class="fa-solid fa-fan"></i></div>
+                    <h4 class="title"><a href="">Reparation de Climatisateur</a></h4>
+                    <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat tarad limino ata</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon"><i class="fa fa-adjust"></i></div>
+                    <h4 class="title"><a href="">Gaz d'échappement</a></h4>
+                    <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon"><i class="fa fa-wrench"></i></div>
+                    <h4 class="title"><a href="">Rampe de voiture</a></h4>
+                    <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon"><i class="fa fa-automobile"></i></div>
+                    <h4 class="title"><a href="">Réparation automobile</a></h4>
+                    <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                    <div class="icon"><i class="fa fa-cogs"></i></div>
+                    <h4 class="title"><a href="">Réparation de casse</a></h4>
+                    <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+                        soluta nobis est eligendi</p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+
+    <!-- End Services Section -->
+
+      
+
+
+        <section id="commentaires">
+      
+<div class="container">
+        <h2 class="commentaire"> Laisser un commentaire</h2>
+
+        <div class="profile-client">
+            <img src="https://www.gabrielgorgi.com/wp-content/uploads/2019/12/01.jpg">
+     
+        <div class="client-body">
+            <p>Elsa Pires 
+            <time datetime="2023-03-20T10/24"> Mars 12, 2023 à 10:20</time></p>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quaerat commodi quidem esse magnam necessitatibus voluptatibus tempore fuga, nisi est quisquam voluptatum modi corporis quas enim architecto mollitia at laboriosam.
+            Enim sit dolorum quis? Architecto omnis nihil alias perferendis cupiditate sint, ab voluptates optio libero dignissimos autem, assumenda hic laborum pariatur, voluptatem neque tenetur quas magnam reiciendis veniam commodi illum!</P>
+       </div>
+        </div>
+        <br>
+        <div class="profile-client">
+            <img src="https://www.gabrielgorgi.com/wp-content/uploads/2019/12/01.jpg">
+        
+            <div class="client-body">
+                <p>Elsa Pires
+                    <time datetime="2023-03-20T10/24"> Mars 12, 2023 à 10:20</time>
+                </p>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quaerat commodi quidem esse magnam
+                    necessitatibus voluptatibus tempore fuga, nisi est quisquam voluptatum modi corporis quas enim architecto
+                    mollitia at laboriosam.
+                    Enim sit dolorum quis? Architecto omnis nihil alias perferendis cupiditate sint, ab voluptates optio libero
+                    dignissimos autem, assumenda hic laborum pariatur, voluptatem neque tenetur quas magnam reiciendis veniam
+                    commodi illum!</P>
+            </div>
+        </div>
+        <br>
+        <div class="profile-client">
+            <img src="https://www.gabrielgorgi.com/wp-content/uploads/2019/12/01.jpg">
+        
+            <div class="client-body">
+                <p>Elsa Pires
+                    <time datetime="2023-03-20T10/24"> Mars 12, 2023 à 10:20</time>
+                </p>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quaerat commodi quidem esse magnam
+                    necessitatibus voluptatibus tempore fuga, nisi est quisquam voluptatum modi corporis quas enim architecto
+                    mollitia at laboriosam.
+                    Enim sit dolorum quis? Architecto omnis nihil alias perferendis cupiditate sint, ab voluptates optio libero
+                    dignissimos autem, assumenda hic laborum pariatur, voluptatem neque tenetur quas magnam reiciendis veniam
+                    commodi illum!</P>
+            </div>
+        </div>
+        <br>
+        <div class="profile-client">
+            <img src="https://www.gabrielgorgi.com/wp-content/uploads/2019/12/01.jpg">
+        
+            <div class="client-body">
+                <p>Elsa Pires
+                    <time datetime="2023-03-20T10/24"> Mars 12, 2023 à 10:20</time>
+                </p>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quaerat commodi quidem esse magnam
+                    necessitatibus voluptatibus tempore fuga, nisi est quisquam voluptatum modi corporis quas enim architecto
+                    mollitia at laboriosam.
+                    Enim sit dolorum quis? Architecto omnis nihil alias perferendis cupiditate sint, ab voluptates optio libero
+                    dignissimos autem, assumenda hic laborum pariatur, voluptatem neque tenetur quas magnam reiciendis veniam
+                    commodi illum!</P>
+            </div>
+        </div>
+        <br>
+        <div class="profile-client">
+            <img src="https://www.gabrielgorgi.com/wp-content/uploads/2019/12/01.jpg">
+        
+            <div class="client-body">
+                <p>Elsa Pires
+                    <time datetime="2023-03-20T10/24"> Mars 12, 2023 à 10:20</time>
+                </p>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quaerat commodi quidem esse magnam
+                    necessitatibus voluptatibus tempore fuga, nisi est quisquam voluptatum modi corporis quas enim architecto
+                    mollitia at laboriosam.
+                    Enim sit dolorum quis? Architecto omnis nihil alias perferendis cupiditate sint, ab voluptates optio libero
+                    dignissimos autem, assumenda hic laborum pariatur, voluptatem neque tenetur quas magnam reiciendis veniam
+                    commodi illum!</P>
+            </div>
+        </div>
+        <br>
+        <div class="profile-client">
+            <img src="https://www.gabrielgorgi.com/wp-content/uploads/2019/12/01.jpg">
+        
+            <div class="client-body">
+                <p>Elsa Pires
+                    <time datetime="2023-03-20T10/24"> Mars 12, 2023 à 10:20</time>
+                </p>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quaerat commodi quidem esse magnam
+                    necessitatibus voluptatibus tempore fuga, nisi est quisquam voluptatum modi corporis quas enim architecto
+                    mollitia at laboriosam.
+                    Enim sit dolorum quis? Architecto omnis nihil alias perferendis cupiditate sint, ab voluptates optio libero
+                    dignissimos autem, assumenda hic laborum pariatur, voluptatem neque tenetur quas magnam reiciendis veniam
+                    commodi illum!</P>
+            </div>
+        </div>
+        
+        <br>
+
+        <form>
+            <div cla="form-group">
+                <label for="name">Nom</label>
+                <input type="text" class="form-control" placeholder="Nom" id="name" required>
+            </div>
+        <div cla="form-group">
+            <label for="name">Commentaire</label>
+            <textarea class="form-control"  id="commentaire"  placeholder="Ecrire un commentaire">
+            </textarea>
+        </div>
+         <div cla="form-group">
+            <label for="name">Note</label>
+            <textarea class="form-control"  id="note"  placeholder="Ecrire une note.">
+            </textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-4"  style="background-color:rgb(247, 117, 11)">Envoyer</button>
+        <button type="reset" class="btn btn-danger mt-4">Reset</button>
+
+        </button>
+        </form>
+        </div>
+        </section>
+  {% endblock body %}  
+

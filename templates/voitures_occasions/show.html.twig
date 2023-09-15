@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}VoituresOccasions{% endblock %}
+
+{% block body %}
+    <h1>VoituresOccasions</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ voitures_occasion.id }}</td>
+            </tr>
+            <tr>
+                <th>Prix</th>
+                <td>{{ voitures_occasion.Prix }}</td>
+            </tr>
+            <tr>
+                <th>Annee_de_mise_en_circulation</th>
+                <td>{{ voitures_occasion.AnneeDeMiseEnCirculation ? voitures_occasion.AnneeDeMiseEnCirculation|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+            <tr>
+                <th>Kilometrage</th>
+                <td>{{ voitures_occasion.Kilometrage }}</td>
+            </tr>
+            <tr>
+                <th>Caracteristiques</th>
+                <td>{{ voitures_occasion.Caracteristiques }}</td>
+            </tr>
+            <tr>
+                <th>Equipments</th>
+                <td>{{ voitures_occasion.Equipments }}</td>
+            </tr>
+            <tr>
+                <th>Options_installees</th>
+                <td>{{ voitures_occasion.OptionsInstallees }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_voitures_occasions_index') }}">back to list</a>
+
+    <a href="{{ path('app_voitures_occasions_edit', {'id': voitures_occasion.id}) }}">edit</a>
+
+    {{ include('voitures_occasions/_delete_form.html.twig') }}
+{% endblock %}

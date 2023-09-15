@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New VoituresOccasions{% endblock %}
+
+{% block body %}
+    <h1>Create new VoituresOccasions</h1>
+
+    {{ include('voitures_occasions/_form.html.twig') }}
+
+    <a href="{{ path('app_voitures_occasions_index') }}">back to list</a>
+{% endblock %}
